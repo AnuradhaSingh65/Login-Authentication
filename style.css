@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url("gradient.jpg");
+  background-size: cover;
+}
+.topnav {
+  
+  overflow: hidden;
+
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
+
+
+.box{
+  border-radius: 20px;
+  width: 300px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+ h1{
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  align-self: center;
+}
+.wrapper{
+  display: flex;
+  height: 430px;
+  width: 400px;
+  align-items: center;
+  border: 3px solid aqua;
+  border-style: inset;
+  border-radius: 3rem;
+  justify-content: center;
+  margin-left: 27rem;
+  margin-top: 5rem;
+  background-color: rgba(0, 0, 0, 0.4);
+
+}
+
+input{
+  font-size: 20px;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  padding: 14px 10px;
+  border: 2px solid rgb(110, 110, 127);
+  width: 270px;
+  outline: none;
+  color: #000;
+  border-radius: 10px;
+}
+input:focus{
+  width: 250px;
+  border-color: yellowgreen;
+}
+
+#btn{
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 18px;
+  border: 3px solid darkgoldenrod;
+  padding: 14px 35px;
+  outline: none;
+  color: rgb(256, 256, 256);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
